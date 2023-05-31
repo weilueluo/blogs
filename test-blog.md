@@ -4,17 +4,56 @@
 ## What is Lorem Ipsum?
 **Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-## Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-## List
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Aenean accumsan libero in mauris vestibulum condimentum.
+- Sed bibendum sem sollicitudin lobortis dapibus.
+  - Sed venenatis tellus vulputate est congue aliquet.
+  - Donec eu lacus tincidunt massa hendrerit imperdiet quis quis nisl.
+  - Pellentesque at augue eget nulla hendrerit scelerisque.
 
-- Ut a eros at orci aliquet ornare.
+## Stories
 
-- Nam sagittis sem ac consectetur facilisis.
-- Duis vel nibh sit amet metus sagittis fermentum nec sit amet nisl.
-- Cras non risus cursus, fermentum lorem in, dictum ligula.
-- Cras quis ante vitae lorem lacinia hendrerit.
-- Donec imperdiet lorem et massa varius, pulvinar sagittis sapien pulvinar.
+### Russian Spy
+There are three people **A B C**, 2 Germans **G**, 1 Russian spy **R**: <br>$(RA \land GB \land GC) \lor (GA \land RB \land GC) \lor (GA \land GB \land RC)$
+Russian is **Spy**:
+$(RA \rightarrow SpyA) \land (RB \rightarrow SpyB) \land (RC \rightarrow SpyC)$
+**A** is as German as **B** is Russian
+$GA \leftrightarrow RB$
+hidden: Russian is not German
+$(RA \leftrightarrow ¬GA) \land (RB \leftrightarrow ¬GB) \land (RC \leftrightarrow ¬GC)$
+we need to show **C** is not a Russian spy
+$RC \land SpyC$
+$\therefore$ If set of formulas is not satisfiable, then Person C cannot be a Russian Spy
+
+### Sudoku
+
+Introduce $9 \times 9 \times 9 = 729$ variables , use $V_{rcd}$ to represent board $V$ at row $r$ and column $c$ contains digit $d$.
+**Each cell contains at least 1 digit**
+$\left( V_{rc1} \vee  \dots \vee V_{rc9}\right)$
+**Each cell contains at most 1 digit**
+$\left( \neg V_{rc1} \vee \neg V_{rc2}\right) \wedge \left( \neg V_{rc1} \vee \neg V_{rc3}\right) \wedge \dots \wedge \left( \neg V_{rc8} \vee \neg V_{rc9}\right)$
+**Every row must contain different digits**
+$\{ \neg V_{r',c,d} \vee \neg V_{r',c,d}\  |\  r, r', c, d \in \{ 1, \dots, 9 \}, c < c' \}$
+**Every column must contain different digits**
+$\{ \neg V_{r,c,d} \vee \neg V_{r,c',d}\  |\  r, c, c', d \in \{ 1, \dots, 9 \}, c < c' \}$
+**Every 3x3 square must contain one of each digits**
+similar.
+**Finally we add initial configuration**
+e.g. $V_{129}$.
+
+$\therefore$ If the set of formulas is satisfiable then the given sudoku with initial config has a solution.
+
+### Loop the Loop
+We first number the rows and columns.
+Let $V_{ij}$ be there is a vertical line between $node_{ij}$ and $node_{ij+1}$
+Let $H_{ij}$ be there is a horizontal line between $node_{ij}$ and $node_{ij+1}$
+Then we can encode exactly $n$ lines around a number $p$ like 
+$T_{=n}(v_{15}, v_{25}, h_{15}, h_{25})$
+**However, there is no simple way of expressing single loop in propositional logic**
+
+## Lemma
+Monotonicity Replacement <br />
+- Polarity act as sign here, it will invert the interpretation if it is negative<br />
+- If $pol(A, π) = 1$, then $I(B) ≤ I(B')$ implies $I(A[B]π) ≤ I(A[B']π)$<br />
+- If $pol(A, π) = −1$, then $I(B') ≤ I(B)$ implies $I(A[B]π) ≤ I(A[B']π)$<br />
+
+
