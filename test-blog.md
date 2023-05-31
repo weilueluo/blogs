@@ -56,4 +56,47 @@ Monotonicity Replacement <br />
 - If $pol(A, π) = 1$, then $I(B) ≤ I(B')$ implies $I(A[B]π) ≤ I(A[B']π)$<br />
 - If $pol(A, π) = −1$, then $I(B') ≤ I(B)$ implies $I(A[B]π) ≤ I(A[B']π)$<br />
 
+## Expected Workflow
+#### Expected Work flow
+
+```mermaid
+flowchart LR
+
+lead["<font size=6>Artist"]
+keyframes["<font size=6>Keyframes"]
+roughframes["<font size=6>Rough Frames"]
+genframes["<font size=6>Generate Frames\n(RNN, AE, MV)"]
+cleanup_matting["<font size=6>Clean Up & Matting\n(GAN, CNN, VQVAE)\nUpsampling"]
+finaloutput["<font size=6>Output Frames"]
+timingnotes["<font size=6>Timing Notes"] 
+linestyle["<font size=6>Overall Line Style"]
+tag["<font size=6>Optional Tags"]
+
+lead -->|<font size=6>interactive edit| roughframes
+lead -->|<font size=6>draw| keyframes --> genframes
+lead  -->|<font size=6>select| tag & linestyle & timingnotes
+roughframes --> cleanup_matting
+timingnotes --> genframes
+genframes <--> roughframes
+tag & linestyle --> cleanup_matting --> finaloutput
+
+
+subgraph  <font size=6>Layout
+ keyframes
+end
+
+subgraph <font size=6>ML Techniques
+	
+
+     subgraph <font size=6>In-betweening
+     genframes
+     end
+
+     subgraph <font size=6>CleanUp & Matting
+     cleanup_matting
+     end
+     
+end
+```
+
 
