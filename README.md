@@ -1,3 +1,4 @@
-# Blogs
-> Going to the place where I store blogs I write
-> Hosted at: https://wll.dev/blog
+# :notebook: Blogs
+> Going to the place I store my blogs
+
+:link: https://wll.dev/blog
