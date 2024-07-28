@@ -20,11 +20,11 @@ All of above concerns are only valid to a reasonable extent, for example, in ord
 
 ### Reliability
 
-You might say why don't we prevent faults instead of trying to tolerate them? The answer is simple --- we cannot guarantee faults from not happening, for example a common hard disk has a mean time to failure of about 10-50 years, if you have a cluster of 10,000 disks, you should expect on average one disk to die per day [[ref]][1]. Over the years, we have used many techniques such as RAID, dual power supplies, and hot-swappable CPUs. These methods are well understood and can keep a machine running uninterrupted for years.
+You might say why don't we prevent faults instead of trying to tolerate them? The answer is simple --- we cannot guarantee faults from not happening, for example a common hard disk has a mean time to failure of about 10-50 years, if you have a cluster of 10,000 disks, you should expect on average one disk to die per day [[ref]][https://www.backblaze.com/blog/backblaze-drive-stats-for-2023/]. Over the years, we have used many techniques such as RAID, dual power supplies, and hot-swappable CPUs. These methods are well understood and can keep a machine running uninterrupted for years.
 
 **Hardware:** Redundancy of hardware components are sufficient for most applications, but as data volumes increases, many applications have begun using larger number of machines, which proportionally increase rate of hardware faults. Multi-machines set up can also have operational advantage of eliminating planned downtime with rolling upgrades.
 
-**Software:** There can also be software faults due to insufficient testing, improper error handling, leaked resources and cascading failures. There are no quick answers but things to keep in mind are (1) **simple tests are able to prevent most of the critical errors** [[ref]][2], (2) sufficient monitoring, isolation can provide a certain degree of guarantee.
+**Software:** There can also be software faults due to insufficient testing, improper error handling, leaked resources and cascading failures. There are no quick answers but things to keep in mind are (1) **simple tests are able to prevent most of the critical errors** [[ref]][https://cs.brown.edu/~ugur/fits_all.pdf ], (2) sufficient monitoring, isolation can provide a certain degree of guarantee.
 
 **Human Error:** Lastly there can also be human errors such as misconfiguration. Human are always unreliable, we should design system that has minimal opportunities for human to make error, decouple error-prone area of the code, add detailed monitoring, logs and allow easy recovery. Note that as amount of data increases, corner cases will starts to appear more often and can potentially becomes an operational burden and go unmaintainable.
 
@@ -92,18 +92,8 @@ Soon it is obvious that user home timeline is loading too slowly, so Twitter swi
 
 On average, a user is followed by 75 users, so write tweet operation becomes 4.6k*75=345k requests / seconds. In extreme case, one user can have more than 30 million followers, this makes that one tweet to have 30 millions write requests! Doing this in timely manner is a challenge given Twitter tries to delivery new messages to his followers within 5 seconds.
 
-A final twist is Twitter ended up going for a hybrid approach, most users goes with hybrid approach and small amount of users with large amount of followers is fetched separately, and merged together [[5]][5].
+A final twist is Twitter ended up going for a hybrid approach, most users goes with hybrid approach and small amount of users with large amount of followers is fetched separately, and merged together [[5]][https://www.infoq.com/presentations/Twitter-Timeline-Scalability/].
 
 ### Amazon
 
-Amazon measures latency in p99.9, the requests that takes longest time often carry the most data --- there is where the most valuable customers are [[3]][3]. But it was also deemed too expensive to optimize for p99.99. It was also observed that a 100ms increase in response time increases sales by 1% [[4]][4].
-
-
-
-## References
-
-[1]: https://www.backblaze.com/blog/backblaze-drive-stats-for-2023/
-[2]: https://cs.brown.edu/~ugur/fits_all.pdf
-[3]: https://dl.acm.org/doi/10.1145/1323293.1294281
-[4]: https://glinden.blogspot.com/2006/12/slides-from-my-talk-at-stanford.html
-[5]: https://www.infoq.com/presentations/Twitter-Timeline-Scalability/
+Amazon measures latency in p99.9, the requests that takes longest time often carry the most data --- there is where the most valuable customers are [[3]][https://dl.acm.org/doi/10.1145/1323293.1294281]. But it was also deemed too expensive to optimize for p99.99. It was also observed that a 100ms increase in response time increases sales by 1% [[4]][https://glinden.blogspot.com/2006/12/slides-from-my-talk-at-stanford.html].
