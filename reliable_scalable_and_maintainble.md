@@ -92,8 +92,8 @@ Soon it is obvious that user home timeline is loading too slowly, so Twitter swi
 
 On average, a user is followed by 75 users, so write tweet operation becomes 4.6k*75=345k requests / seconds. In extreme case, one user can have more than 30 million followers, this makes that one tweet to have 30 millions write requests! Doing this in timely manner is a challenge given Twitter tries to delivery new messages to his followers within 5 seconds.
 
-A final twist is Twitter ended up going for a hybrid approach, most users goes with hybrid approach and small amount of users with large amount of followers is fetched separately, and merged together [[5]][https://www.infoq.com/presentations/Twitter-Timeline-Scalability/].
+A final twist is Twitter ended up going for a hybrid approach, most users goes with hybrid approach and small amount of users with large amount of followers is fetched separately, and merged together [ref][https://www.infoq.com/presentations/Twitter-Timeline-Scalability/].
 
 ### Amazon
 
-Amazon measures latency in p99.9, the requests that takes longest time often carry the most data --- there is where the most valuable customers are [[3]][https://dl.acm.org/doi/10.1145/1323293.1294281]. But it was also deemed too expensive to optimize for p99.99. It was also observed that a 100ms increase in response time increases sales by 1% [[4]][https://glinden.blogspot.com/2006/12/slides-from-my-talk-at-stanford.html].
+Amazon measures latency in p99.9, the requests that takes longest time often carry the most data --- there is where the most valuable customers are [ref][https://dl.acm.org/doi/10.1145/1323293.1294281]. But it was also deemed too expensive to optimize for p99.99. It was also observed that a 100ms increase in response time increases sales by 1% [ref][https://glinden.blogspot.com/2006/12/slides-from-my-talk-at-stanford.html].
