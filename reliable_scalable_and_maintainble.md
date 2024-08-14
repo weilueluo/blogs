@@ -60,7 +60,7 @@ It is well known that the major cost of software development does not lie in ini
 
 In this article, we looked at data-intensive applications in three perspectives: ***reliability***, ***scalability*** and ***maintainability***. Application has to meet various requirements in order for it to be useful to a wide range of users. There is no simple answer and for each of them, satisfying requirements  takes hard work and in many cases, we need to trade-off instead. However, certain kinds of patterns and tools can help us effectively achieve these goals.
 
-## Company Stories
+## Appendix
 
 ### Netflix
 
@@ -73,7 +73,7 @@ There were two main operations at Twitter that matter most - post tweets and hom
 1. post tweets - The user can publish new messages to their subscribers
 2. home timeline - The user can view messages from users he follows
 
-Data published by Twitter in 2012 shows that post tweets are around 4.6k requests per second, peaked at over 12k requests per second and home timeline is around 300k per second. At first, Twitter handles it like the following:
+Data published by Twitter in 2012 shows that post tweets are around 4.6k requests per second, peaked at over 12k requests per second and home timeline is around 300k per second. Twitter was handling it like the following:
 
 - post tweets - single append to the database, indicating user has posted a tweet
 - home timeline - aggregate and sort all tweets posted by users the current user followed when an update is needed
@@ -85,14 +85,14 @@ Data published by Twitter in 2012 shows that post tweets are around 4.6k request
     where follow.followerId = currentUserId
     ```
 
-At first, Twitter used the first approach and switched to the second approach later.
+Then they switched to a second approach:
 
 - post tweets - writes to all its followers' home timeline caches
 - home timeline - loads from the cache
 
 On average, a user is followed by 75 users, so the one write tweet operation becomes 4.6k*75=345k requests/seconds. In extreme cases, one user can have more than 30 million followers, this makes that one tweet have 30 million write requests! Doing this in timely manner is a challenge given Twitter tries to deliver new messages to its followers within 5 seconds.
 
-A final twist is Twitter ended up going for a hybrid approach, most users go with a separate approach where most users and a small amount of users with a large amount of followers are fetched separately and results are merged [[ref]](https://www.infoq.com/presentations/Twitter-Timeline-Scalability/).
+Twitter ended up going for a hybrid approach, most users go with the second approach and a small amount of users with a large amount of followers are fetched separately and results are merged [[ref]](https://www.infoq.com/presentations/Twitter-Timeline-Scalability/).
 
 ### Amazon
 
