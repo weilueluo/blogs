@@ -1,4 +1,4 @@
 # :notebook: Blogs
-> Going to the place I store my blogs
+Hello this is a README
 
 :link: https://v2.wll.dev/blog
