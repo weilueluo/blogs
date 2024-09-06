@@ -1,4 +1,4 @@
-# Reliable, Scalable, and Maintainable Applications
+# Data Intensive Applications
 
 Many applications today are *data-intensive*, rather than *compute-intensive*. As CPUs are getting stronger every day, it is rarely a limitation, bigger problems are usually the amount of data, complexity of the data, and the speed it changes. For example, many systems are needed to store, stream / batch process, and cache data they received or owned.
 
