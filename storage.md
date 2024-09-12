@@ -1,5 +1,11 @@
 # Database
 
+> [!NOTE]
+>
+> This note is not done
+
+
+
 > As a developer we do not care about the internal of database, but we do care about choosing a suitable database and finetuning database for performance. 
 >
 > transactional workload vs analytics workload
