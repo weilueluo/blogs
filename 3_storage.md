@@ -96,7 +96,7 @@ When given a key to read, we starts from a designated *root page*, find the refe
 
 Write is also navigate down the tree in similar fashion, except that we either to insert or update the value. When a page get large enough, an insertion could trigger a page split, to do this we need to split a full-page into two half-full pages and update their parent reference. This is a dangerous operation, because it is a two step process. We could ended up with partially written pages in the case of sudden failure.
 
-### Reliable Reads and Writ
+### Reliable Reads and Writes
 
 We can again use a *write-ahead-log (WAL)* to keep track of every b-tree modification before it is applied to the tree itself, we can use this log to bring b-tree back to a consistent state. Instead of using *WAL*, some databases also use a copy-on-write scheme, every time a write is needed, it create a new version of the parent page, containing new references to new data. As we will see in later blog, it is useful for concurrency control.
 
