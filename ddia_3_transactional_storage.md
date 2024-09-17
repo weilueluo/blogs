@@ -1,4 +1,4 @@
-# Database
+# Transactional Storage
 
 In this blog we are going to talk about databases, as a developer we do not care about the internal of database, but we do care about choosing a suitable database for your workload and finetuning it for performance, to do that we need to have a rough idea of how databases work under the hood.
 
