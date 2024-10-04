@@ -13,7 +13,9 @@ Depending on your use case, you might want to configure Kafka differently. Ask y
 3. Partitioner: a partition is chosen is not present.
 4. Adds the message to a batch, grouped by topic and partition.
     1. A batch is sent when it is full, or when some time limit elapsed.
-    2. If key is missing, it will be sent to one of the available partitions using round-robin algorithm, if default partitioner is used.
+    2. If key is missing, it will be sent to one of the available partitions using round-robin algorithm, if default partitioner is used. Kafka uses its own hashing algorithm to hash the key (not the java ones to avoid hash changes due to java upgrade). The algorithm calculate hash using all partitions, not just the available ones, so it might be sent to an unavailable partition and result in an error (fairly rare).
+    3. Whenever you add new partition, you can no longer guarantee the same key get written to the same partition, which disable a lot of read optimizations.
+    4. You should implement custom partition strategy if some key appears significantly more often than others, to avoid some server running out of space.
 5. A separate thread is responsible for sending those batches to brokers
     1. ***Fire-and-forget*** we do not care if it success.
     2. ***Synchronous send*** we want check the response explicitly
