@@ -8,11 +8,13 @@
 
 > A discussion between two or more people where (1) stakes are high, (2) opinion vary, (3) emotions run strong.
 
+> Throughout the book, there are many example dialogues, as much as I want to shorten this notes down to essence, I felt these dialogues are too important to be skipped. Let's learn by example.
+
 Consider conversations might have happened in our day-to-day life:
 
 - In the middle of a casual conversation with your spouse, he or she brings up an "ugly incident" took place in yesterday's neighbourhood block party. Apparently not did you only flirt with someone at the party, but according to your spouse, "you were clearly making out". You do not remember flirting, you recall only being polite and friendly. Your spouse walks off in a huff.
 - Your spouse has been paying less and less attention to you. You realize he or she has a busy job, but you still would like more time together. You drop a few hints about the issue, but your loved one doesn't handle it well. You decide not to put on added pressure, so you clam up. Of course, since you're not all that happy with the arrangement, your dis pleasure now comes out through an occasional sarcastic remark. "Another late night, huh? Do you really need all of the money in the world?" 
-- Your roommate Terry who wears your and your other two roommates' clothes (without asking)-and he's proud of it. In fact, one day while walking out the door, he glibly announced that he was wearing something from each of your closets. You could see Taylor's pants, Scott's shirt, and, yes, even Chris's new matching shoes-and-socks ensemble. What of yours could he possibly be wearing? Eww! Your response, quite naturally, has been to bad-mouth Terry behind his back. That is until one day when he overheard you belittling him to a friend, and you're now so embarrassed that you avoid being around him. Now when you're out of the apartment, he wears your clothes, eats your food, and uses your computer out of spite. 
+- Your roommate Terry who wears your and your other two roommates' clothes (without asking)-and he's proud of it. In fact, one day while walking out the door, he glibly announced that he was wearing something from each of your closets. You could see Taylor's pants, Scott's shirt, and, yes, even Chris's new matching shoes-and-socks ensemble. What of yours could he possibly be wearing? Eww! Your response, quite naturally, has been to bad-mouth Terry behind his back. That is until one day when he overheard you belittling him to a friend, and you're now so embarrassed that you avoid being around him. Now when you're out of the apartment, he wears your clothes, eats your food, and uses your computer out of spite.
 
 And many more:
 
@@ -48,8 +50,6 @@ Criminals in prison are not always a career criminal, over half of the people wh
 Research done by Dr. Janice Kiecolt-Glaser and Dr. Ronald Glaser found those who routinely fails their crucial conversations had far weaker immune systems. When facing life-threatening diseases, studies also showed significantly higher recovering rate for people who have effective communication skills.
 
 I hope the above is enough to convince you handling a crucial conversation. Ironically, the more crucial the conversation, the less likely we are able to handle it well. As we step up to a crucial conversation and handle it well, from our careers, relationships, to personal health, can all be benefited. So what can we do about it?
-
-> Throughout the book, there are many example dialogues, as much as I want to shorten this notes down to the essence, I felt these dialogues are too important to be skipped. So, let's go.
 
 ## Start With Heart
 
@@ -238,3 +238,244 @@ Your Dialogue Skills score (figure below) is organized by concept and chapter so
 | **Ch 7: STATE My Path**          | 17 (T), 23 (F), 29 (T)        |
 | **Ch 8: Explore Others' Paths**  | 18 (T), 24 (T), 30 (T)        |
 | **Ch 9: Move to Action**         | 31 (F), 32 (F), 33 (F)        |
+
+## Make It Safe
+
+### Mutual Purpose
+
+First a little background. Jotham thinks he and Yvonne are intimate with each other far too seldom. Yvonne is satisfied with their physical relationship. For years the two have acted out rather than talked out their concerns. When Jotham wants to be amorous and Yvonne doesn't respond, he goes to silence. He pouts, says almost nothing, and avoids Yvonne for the next few days. 
+
+Yvonne knows what's going on with Jotham. Occasionally she'll go along with him even when she's not feeling particularly romantic. She does this in hopes of avoiding Jotham's pouting. Unfortunately, she then feels resentful toward Jotham, and it's much longer before she feels genuinely romantic toward him.
+
+So here's the game. The more Jotham insists and pouts, the less attractive and interesting he is to Yvonne. The more Yvonne suc cumbs and then resents, the less she's interested in the entire rela tionship. The more both of them act out rather than talk out this crucial conversation, the more likely they are to end up going their separate ways. Yvonne has decided to broach the subject with Jotham. Rather than waiting until they're both upset, she's picked a time when they're relaxing on the couch. Here goes.
+
+- YVONNE: Jotham, can we talk about what happened last night-you know, when I told you that I was tired?
+- JOTHAM: I don't know if I'm in the mood.
+- YVONNE: What's that supposed to mean?
+- JOTHAM: I'm sick and tired of you deciding when we do what!
+- YVONNE: (walks out)
+
+Yvonne initiated a tough conversation, but her partner took a cheap shot on her and she walked away. What should she do? How can she get back to honest and healthy dialogue? We are not suggesting Jotham's behaviour is acceptable, but imagine if you are Yvonne, what would you done differently? The problem with Yvonne is she is too focus on the content of what Jotham said, otherwise she could easily spotted Jotham's sarcasm. To confront his sarcasm, we need to make it safe.
+
+"Oh, honey, I really want to be with you but I'm under a lot of pressure at work, and the stress makes it hard for me to enjoy our time together."
+
+This at first seems to be a good response, we made it more palatable by sugar-coating it. This is definitely safe, but we avoid the real problem, and it never gets fixed. We should not play games, go straight to the point, and make it discussable, for example:
+
+"Can we change gears for a minute? I'd like to talk about what happens when we're not romantically in sync. It would be good if we could both share what's working and what isn't. My goal isn't to make you feel guilty, and I certainly don't want to become defensive. What I'd really love is for us to come up with a solution that makes us both satisfied in our relationship."
+
+In order for you to accept delicate messages, you need to believe the other person cares about them, or their goals or objectives. You are not his enemy, thus the first condition of safety is ***mutual purpose***, where you make sure all parties involves are working towards the same goal, as such, you made sure everyone feels safe, because nobody is others' enemy.
+
+### Mutual Respect
+
+Another thing to look out for is ***mutual respect***, respect is equally important as mutual purpose, you have no reason to stay in a conversation if you don't feel respected, even if there is mutual purpose. The moment people feel disrespected in a conversation, the purpose of the conversation is no longer the original purpose --- it is now about defending dignity.
+
+For example, you're talking with a group of supervisors about a complicated quality problem. You really want to see the problem resolved once and for all. Your job depends on it. Unfortunately, you also think the supervisors are overpaid and underqualified. You firmly believe that not only are they in over their heads, but they do stupid things all the time. Some of them even act unethically.
+
+As the supervisors throw out ideas, you roll your eyes. The disrespect you carry in your head creeps out in one unfortunate gesture. And it's all over. What happens to the conversation despite the fact that you still share a common objective? It tanks. They take shots at your proposals. You add insulting adjectives in describing theirs. As attention turns to scoring points, everyone loses. Your Mutual Purpose suffers for a lack of Mutual Respect.
+
+But wait, what if you are upset because people have let you down? What if it happens repeatedly? How can you respect someone who is so poorly motivated and selfish? How could you respect someone you don't respect?
+
+Yvonne is struggling with exact same point, there are times where she does not even like Jotham. But the thing to realize is, you do not need to share the same believe in every aspects, disrespect essentially comes from how others are different from ourselves, we cant counteract the feelings by looking for ways we are similar. Without excusing their behaviour, we try to sympathize (同情) or even empathize (共情) with them.
+
+Consider the following example. A manufacturing company has been out on strike for over six months. Finally, the union agrees to return to work, but the represented employees have to sign a con tract that is actually worse than what they were originally demand ing. The first day back it's clear that although people will work, they won't do so with a smile and a spring in their step. Everyone is furious. How are people ever going to move ahead?
+
+Concerned that although the strike is over, the battle isn't, a manager asks one of the authors to lend a hand. So he meets with the two groups of leaders (both managers and union heads) and asks them to do one thing. Each group is to go into a separate room and write out its goals for the company on flip-chart-sized paper. For two hours each group feverishly lays out what it wants in the future and then tapes the lists to the wall. When they finish their assignment, the groups then swap places with the goal of finding anything-maybe just a morsel-but anything they might have in common. 
+
+After a few minutes the two groups return to the training room. They're positively stunned. It was as if they had written the exact same lists. They didn't merely share the shadow of an idea or two. Their aspirations were nearly identical. All wanted a profitable company, stable and rewarding jobs, high-quality products, and a positive impact on the community. Given a chance to speak freely and without fear of attack, each group laid out not simply what it wanted, but what virtually every per son wanted. 
+
+This experience caused each group to seriously question how it had seen the other side. The groups began to see others as more similar to themselves.
+
+### Apologize
+
+You're talking with a group of hourly employees who worked all night preparing for a factory tour. You were supposed to bring the division vice president by, and the team members were then going to update him on a new process they've put into place. They're proud of some improvements they've recently made-enough so that they willingly worked straight through the night to finish the last details. 
+
+Unfortunately, when it came time to swing by their area, the visiting VP dropped a bomb. He laid out a plan you're convinced would hurt quality and potentially drive away your biggest customers. Since you only had another hour with the VP, you chose to talk through the issue rather than conduct the tour. Your future depended on that particular conversation. Fortunately, you were able to avert the plan. Unfortunately, you forgot to get word to the team that had worked so hard.
+
+As you walked back to your office after escorting the execu tive to his car, you bumped into the team. Bleary-eyed and disap pointed, all six of them were now fuming. No visit, no phone call, and now it was clear from the way you were sprinting on by that you weren't even going to stop and give them a simple explanation. 
+
+Ouch. That's when things started turning ugly. "We pulled an all nighter, and you didn't even bother to come by! That's the last time we're busting our hump for you!"
+
+But you missed the point, Why? Because you feel disrespected, they attacked you, so you stay stuck to the conversation content. "I had to choose between the future of the company and the plant tour. I chose our future, and I'd do it again if I had to." 
+
+Now both you and they are fighting for respect. This is getting you nowhere fast. But what else could you do?
+
+''I'm sorry I didn't give you a call when I learned that we wouldn't be coming by. You worked all night, it would have been a wonderful chance to showcase your improvements, and I didn't even explain what happened. I apologize."
+
+Now apology isn't an apology unless you actually made a change in your heart, you need to give up saving face, give up ego, give up winning, admit errors. But when you give up something, you are rewarded with some other --- a healthier, safer dialogue. Now you can explain the details of what happened.
+
+### Contrast
+
+Contrast is a way to fix misunderstanding, it is a don't/do statement that:
+
+- Addresses others' concerns that you don't respect them or that you have a malicious purpose (the don't part).
+    - "The last thing I wanted to do was communicate that I don't value the work you put in or that I didn't want to share it with the VP. 
+- Confirms your respect or clarifies your real purpose (the do part).
+    - I think your work has been nothing short of spectacular. "
+
+Contrasting inherently has a weaken demeanor, it is not apologize, it is not a way to undo hurtful things we said, but rather prevent further damage by providing more context. Out of *don't* and *do*, don't is more important because it deals with the misunderstanding that has put safety at risk. When it is safe, you can proceed to explain what happened:
+
+"Unfortunately, just when I was starting to make the trip out here, an issue came up with the VP that I needed to address right then and there, or it could have cost us a huge piece of our business. I tell you what-I'll see if I can get him down here sometime tomorrow to review your work. He'll be here for the ribbon-cutting ceremony. Let's see if we can show off the process improvements you came up with."
+
+Let's go back to Yvonne and Jotham, and see how Yvonne is trying to get the conversation going.
+
+- YVONNE: I think it makes things worse when you withdraw and won't talk to me for days at a time.
+- JOTHAM: So you expect me not only to put up with regular rejection, but also to be sociable and happy when I do?
+- YVONNE: I don't want to suggest that this problem is yours. The truth is, I think it's ours. I'm not trying to put the burden on you. I don't even know what the solution is. What I do want is to be able to talk so that we can under stand each other better. Perhaps that will help me change how I'm responding to you, too.
+- JOTHAM: I know where this is going. We talk, I continue to get rejected, but you get to feel good about yourself because "we've communicated." Have you been watching Oprah again?
+
+Obviously Jotham still believes that Yvonne merely wants to confirm that their existing relationship is okay and if she does, she'll be able to continue to reject Jotham-but feel good about it. Jotham still feels unsafe. So Yvonne continues to step out and build safety, using Contrasting.
+
+- YVONNE: Seriously, Honey. I'm not interested in discussing why our current relationship is really okay. I can see that it isn't. I merely want to talk about what each of us likes and doesn't like. That way we'll be able to see what we need to improve and why. My only goal is to come up with some ideas that will make both of us happy.
+- JOTHAM: (Changing tone and demeanor) Really? I'm sorry to be so insecure about this. I know I'm being a bit selfish about things, but I don't know how to make myself feel differently.
+
+### CRIB
+
+- **C**ommit to Seek Mutual Purpose. Start with your heart, recognize differences, seek similarity.
+- **R**ecognize the Purpose behind the Strategy. Parties want different things, that's hard to resolve, ask why they want that, and adjust your strategies.
+- **I**nvent a Mutual Purpose. Find an objective that is more meaningful or more rewarding than the ones divides the various sides.
+- **B**rainstorm New Strategies. Think out of the box to full-fill the mutual purpose, or even tackle different purposes without conflict.
+
+###  Example
+
+For example, I come home from work and say that I want to go to a movie. You say that you want to stay home and relax. And so we debate: movie, TV, movie, read, etc. We figure we'll never be able to resolve our differences because going out and staying home are incompatible. In such circumstances we can break the impasse by asking others, "Why do you want that?" In this case, 
+
+- "Why do you want to stay home?"
+- "Because I'm tired of running around and dealing with the hassle of the city."
+- "So you want peace and quiet?"
+- "Mostly. And why do you want to go to a movie?"
+- "So I can spend some time with you away from the kids."
+- "You want peace and quiet, and I want time with you away from the kids. So if we can come up with something that is quiet and away, we'll both be happy. Is that right?"
+- "Absolutely. What if we were to take a drive up the canyon and . . . "
+
+Let's finish up Yvonne and Jotham's conversation and see how we do it in practice
+
+- YVONNE: Jotham, I'd like to talk about our physical relationship. I'm not doing it to put you on the spot or to suggest the problem is yours. I'm completely clear that it's as much my problem as yours. I'd really like to talk about it so we can make things better for both of us.
+- JOTHAM: What's there to talk about? You don't want it. I want it. I'll try to deal with it.
+- YVONNE: I think it's more complicated than that. The way you act sometimes makes me want to be with you even less.
+- JOTHAM: If that's how you feel, why are we pretending we have a relationship at all?
+
+Clearly there's a lot Jotham could be doing to make things go better. But she's not Jotham. What should Yvonne do? She will be looking into the safety issue behind Jotham's drawback. Why is Jotham starting to with draw from the conversation? Two reasons:
+
+- The way Yvonne made her point sounded to him like she was blaming him for everything.
+- He believes her concern in one small area reflects her total feelings toward him.
+
+So Yvonne apologize and use contrasting to rebuild safety
+
+- YVONNE: I'm sorry I said it that way. I'm not blaming you for how I feel or act. That's my problem. I don't see this as your problem. I see it as our problem. Both of us may be acting in ways that make things worse. I know I am at least.
+- JOTHAM: I probably am too. Sometimes I pout because I'm hurting. And I also do it hoping it'll make you feel bad. I'm sorry about that, too.
+
+Since Yvonne did not also redraw from the conversation and rebuild safety correctly, Jotham returns to the conversation, we can't achieve that with blaming.
+
+- JOTHAM: I just don't see how we can work this out. I'm wired for more passion than you are-it seems like the only solution is for me to put up with it the way it is or for you to feel like a sex slave.
+
+The problem now is Mutual Purpose. Jotham thinks and Yvonne are at cross purpose. In his mind, there is no mutually satisfactory solution. Rather compromise, let see how Yvonne fights her way out with CRIB.
+
+- YVONNE: [Commit to seek Mutual Purpose] No, that isn't what I want at all. I don't want anything with you that isn't great for both of us. I just want to find a way to have us both feel close. appreciated. and loved.
+- JOTHAM: That's what I want, too. It just seems like we get those feelings in different ways.
+- YVONNE: [Recognize the purpose behind the strategy] Maybe not. What makes you feel loved and appreciated?
+- JOTHAM: Making love with you when you really want to makes me feel loved and appreciated. And you?
+- YVONNE: When you do thoughtful things for me. And, I guess, when you hold me-but not always sexually.
+- JOTHAM: You mean, if we're just cuddling that makes you feel loved?
+- YVONNE: Yes. And sometimes-I guess when I think you're doing it because you love me-sex does that for me, too.
+- JOTHAM: [Invent a Mutual Purpose] So we need to find ways to be together that make both of us feel loved and appreciated. Is that what we're looking for here?
+- YVONNE: Yes. I really want that, too. 
+- JOTHAM: [Brainstorm new strategies] Well, what if we . . .
+
+Reading a complex interaction like this might make you wonder two things (1) wow, these ideas might actually work! (2) There is no way I could think clearly in the middle of a conversation in real life! Well, obviously it is easy for me to type in front of a computer and note these points down, come up with some convincing ideas and try to tell you what you should do. But fortunately, these dialogues comes from real life, some people do act like this. And the truth is, you just need to think a bit more clearly in conversations. When it comes to crucial conversation, a little progress can produce a lot of benefits.
+
+## Master My Stories
+
+You're sitting quietly at home watching TV and your mother-in-law (who lives with you) walks in. She glances around and then starts pick ing up the mess you made a few minutes earlier when you whipped up a batch of nachos. This ticks you off. She's always smugly skulking around the house, thinking you're a slob. 
+
+A few minutes later when your spouse asks you why you're so upset, you explain, "It's your mom again. I was lying here enjoy ing myself when she gave me that look, and it really got me going. To be honest, I wish she would quit doing that. It's my only day off, I'm relaxing quietly, and then she walks in and pushes my buttons."
+
+"Does she push your buttons?" your spouse asks. "Or do you?" 
+
+That's an interesting question, emotion don't just happen, they arise from your heart by some stimulus, and impact the way you act and speak. Stimulus are often external factors that we can't control, making it sound uncontrollable, and we naturally blame the stimulus. But the fact is, *others don't make you mad, you make you mad*. You and only you create your emotion. You can either act on them or be acted upon.
+
+Consider Maria, a copywriter who is currently hostage to some pretty strong emotions. She and her colleague Louis just reviewed the latest draft of a proposal with their boss. During the meeting, they were supposed to be jointly presenting their latest ideas. But when Maria paused to take a breath, Louis took over the presentation, making almost all the points they had come up with together. When the boss turned to Maria for input, there was nothing left for her to say. 
+
+Maria has been feeling humiliated and angry throughout this project. First, Louis took their suggestions to the boss and dis cussed them behind her back. Second, he completely monopo lized the presentation. Consequently, Maria believes that Louis is downplaying her contribution because she's the only woman on the team. 
+
+She's getting fed up with his "boys' club" mentality. So what does she do? She doesn't want to appear "oversensitive," so most of the time she says nothing and just does her job. However, she does manage to assert herself by occasionally getting in sarcastic jabs about the way she's being treated.
+
+So what is making Maria mad? She is upset by Louis's action, emotion arise and took over her action. In her view, Louis caused them, these emotions drive her to deteriorate relationship with Louis. But wait, what can we do about it? Is there something between Louis's action and Maria's emotion? As it turns out, yes, that is a story. A story that Louis came up in her mind in blink of a second after observing Louis's action, a story that adds meaning to Louis's action, making Louis an enemy.
+
+```mermaid
+flowchart LR
+
+tell["Tell a  Story\nHe does not trust me, He thins I am weak."]
+feel["Feel\nhurt, worried"]
+act["Act\nsilence, cheap shots"]
+
+see["See / Hear\n Louis makes all the points"] --> tell
+tell --> feel
+feel --> act
+```
+
+The important part to notice is, we can tell a different story, and create different emotions. The first step is to identify your feelings, stop and ask yourself, is it the right feeling? Are you telling the right story? Afterall, feelings comes from story and story is our own invention. Do not confuse story with facts. Sometime you fail to question your story because you treat them as immutable facts. For example, in trying to ferret out facts from story, Maria might say, "He's a male chauvinist pig-that's a fact! Ask anyone who has seen how he treats me!", but "He's a male chauvinist pig" is not a fact. It is a story created by Maria.
+
+### Three Clever Stories
+
+- **Victim Stories** *It is not my fault*. Our story can convince a simple idea --- the other person is bad and wrong, and we are good and right. If you are just walking up the street and caught in the middle of a gun fight, you are a victim. But reality is often not so one sided, but we tend to tell a victim story, a story that ignore our role in it. For example, your boss took you off from a big project last week, you tell everyone how bad you felt. Of course, you failed to let your boss know you are behind an important project, leaving him high and dry. This is the part of the story you left out, but hey, he made you feel bad.
+- **Villain Stories** *It's all your fault*. We create nasty little tales that turns a decent human beings into villains. For example, we describe our boss who is zealous about quality a control freak. When our spouse is upset that we didn't keep up a commitment, we call them inflexible and stubborn. Something to look out there is double standard --- while evaluating others' behaviours, don't leave out ourselves. Also put you into others' shoes to see how you would act at their position.
+- **Helpless Stories** *There is nothing else I can do*. In these situations, we convince ourselves there is no healthy alternatives for our predicament. We tend to say things like "If 1 didn't yell at my son, he wouldn't listen." or "If I told my husband this, he would just be defensive.".
+
+Our clever stories are not always wrong, sometimes stories we tell are accurate, but other times we use it to escape reality, excuses us from any responsibility. We sell out when we consciously act against our own sense of what's right. And after we sold out, we have only two choices: own up to our sell out, or try to justify it. If we don't admit to our errors, we starting to tell clever stories. Example of sell out includes:
+
+- You believe you should help someone, but don't.
+- You believe you should apologize, but don't.
+- You believe you should stay late to finish up on a commitment, but go home instead.
+- You say yes when you know you should say no, then hope no one follows up to see if you keep your commitment.
+- You believe you should talk to someone about concerns you have with him or her, but don't.
+
+Even small sell outs like those get us started telling clever stories. When we don't admit to our own mistakes, we obsess about others' fault, our innocence, and our powerlessness to do other things. This is a sad fact, but there is an obvious way to fix it --- tell the complete story!
+
+- **Turn victims into actors** Am I pretending not to notice my role in the problem?
+- **Turn villains into humans** Why would a reasonable, rational, and decent person do what this person is doing?
+- **Turn the helpless into the able.** What do I really want? For me? For others? For the relationship? What would I do right now if I really wanted these results?
+
+## State My Path
+
+Most of the time we walk into a conversation and slide into autopilot without thinking, "Hi, how are the kids? What's going on at work?". We know thousand of words and generally weave them into conversation that suit our needs. However, when stakes and emotions are high, we don't do too well. In fact, more important the conversation, the less likely we are to be on our best behaviour. To examine our skills, we will look at two challenging situations.
+
+- **Sharing Risky Meaning** Adding controversial opinion to the shared pool of meaning can be quite difficult, sometimes we have an important opinion in mind, but because it is too risky to say, we turn to silence, when not, we speak poorly.
+    - "I'm sorry, Marta, but people simply don't like working with you. You've been asked to leave the special-projects team." 
+    - "You're not going to like this, but, hey, somebody has to be honest . . . " (a classic Sucker's Choice)
+- **Maintain Safety** In order to speak honestly when honesty can easily offend others, we need to find a way to maintain safety. That is, punch someone in the face without hurting him. Sounds impossible but we can do so by blending three ingredients
+    - **Confidence** Most people wouldn't hold delicate conversations, at least not the right person. For example, Brian went home telling his wife how he dislike his boss, Fernando, is micromanaging every inch of his life. He say the same thing while having lunch with his pal, he tells everybody, everybody knows. Except, of course, Fernando. People who are skilled at dialogue talk to people that needs to hear it.
+    - **Humility** Confidence is not arrogance or pig-headedness, skilled people are confidence that they have something to say, but they also believe others have valuable input, they are not here to inform thing, they are here to hold a healthy conversation.
+    - **Skill** Finally people who willing to share delicate information are good at doing it, and this is because they feel confidence in the first place! They do not make sucker's choice because they find a path that allows both candor and safety.
+
+To see how to discuss sensitive issue, let's tackle a difficult problem. Bob has just walked in the door, and his wife, Carole, looks upset. He can tell from her swollen eyes that she's been crying. Only when he walks in the door, Carole doesn't turn to him for comfort. Instead, she looks at him with an expression that says "How could you?" Bob doesn't know it yet, but Carole thinks he's having an affair. He's not.
+
+How did Carole come to this dangerous and wrong con clusion? Earlier that day she had been going over the credit card statement when she noticed a charge from the Good Night Motel-a cheap place located not more than a mile from their home. "Why would he stay in a motel so close to home?" she wonders. "And why didn't I know about it?" Then it hits her "That unfaithful jerk!"
+
+Now what's the worst way Carole might handle this (one that doesn't involve packing up and moving back to Wisconsin)? What's the worst way of talking about the problem? Most people agree that jumping in with an ugly accusation followed by a threat is a good candidate for that distinction. It's also what most people do, and Carole is no exception.
+
+"I can't believe you're doing this to me," she says in a painful tone. 
+
+"Doing what?" Bob asks-not knowing what she's talking about but figuring that whatever it is, it can't be good. 
+
+"You know what I'm talking about," she says, continuing to keep Bob on edge. "Do I need to apologize for missing her birthday?" Bob wonders to himself. "No, it's not even summer and her birthday is on . . . well, it's sweltering on her birthday."
+
+"I'm sorry, I don't know what you're talking about," he responds, taken aback. 
+
+"You're having an affair, and 1 have proof right here!" Carole explains holding up a piece of crumpled paper. 
+
+"What's on that paper that says I'm having an affair?" he asks, completely befuddled because (1) he's not having an affair and (2) the paper contains not a single compromising photo. 
+
+"It's a motel bill, you jerk. You take some woman to a motel, and you put it on the credit card?! 1 can't believe you're doing this to me!" 
+
+Now if Carole were certain that Bob was having an affair, perhaps this kind of talk would be warranted. It may not be the best way to work through the issue, but Bob would at least understand why Carole made the accusations and hurled threats. But in truth she has no solid evidence confirm her suspicion. How should she talk about this nasty hunch in a way that leads to dialogue? If Carole's goal is to have a healthy conversation, despite her worst suspicions, she should not kill safety with threats and accusations.
+
+So now what? Start with your heart, think about what you really want, and how dialogue can get you there, master your story --- realize you might take the easy way out by jumping into Victim/Villain/Hopeless story. Slow it down, if it turns out your initial suspicions are right, you have plenty of time for confrontation later on. Once you set yourself up for a healthy dialogue, use the follow *STATE* tool for dialogue:
+
+- ***S***hare your facts
+- ***T***ell your story
+- ***A***sk for others' paths
+- ***T***alk tentatively
+- ***E***ncourage testing 
+
+
+
