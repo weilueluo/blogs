@@ -471,11 +471,85 @@ Now if Carole were certain that Bob was having an affair, perhaps this kind of t
 
 So now what? Start with your heart, think about what you really want, and how dialogue can get you there, master your story --- realize you might take the easy way out by jumping into Victim/Villain/Hopeless story. Slow it down, if it turns out your initial suspicions are right, you have plenty of time for confrontation later on. Once you set yourself up for a healthy dialogue, use the follow *STATE* tool for dialogue:
 
-- ***S***hare your facts
-- ***T***ell your story
-- ***A***sk for others' paths
-- ***T***alk tentatively
-- ***E***ncourage testing 
+- ***S*hare your facts** Facts are the least controversial, most persuasive, and least insulting, never starts with shocking and offensive conclusion. 
+    - Example of starting with conclusion: "I'd like to talk to you about your leadership style. You micromanage me, and it's starting to drive me nuts.".
+    - Example of starting with facts: "Since I started work here, you've asked to meet with me twice a day. That's more than with anyone else. You have also asked me to pass all of my ideas by you before I include them in a project.", "I'm not sure that you're intending to send this message, but I'm beginning to wonder if you don't trust me. Maybe you think I'm not up to the job or that I'll get you into trouble. Is that what's going on?".
 
+- ***T*ell your story** Explain what you're beginning to conclude. Facts alone won't very interesting, adding your story calls for a discussion. You need to be confidence, and don't simmer problems for a long time. Imagine you are about to held a crucial conversation with your child's teacher, he wants to hold your daughter back a year, but you want her to advance in time.
+    - In your head: "I can't believe this! This teacher is straight out of college, and she wants to hold Debbie back. To be perfectly frank, I don't think she gives much weight to the stigma of being held back. Worse still, she's quoting the recommendation of the school psychologist. The guy's a real idiot. I've met him, and I wouldn't trust him with a common cold. I'm not going to let these two morons push me around."
+    - After you worked on your story: "When I first heard your recommendation, my initial reaction was to oppose your decision. But after thinking about it, I've realized I could be wrong. I realized I don't really have any experience about what's best for Debbie in this situation-only fears about the stigma of being held back. I know it's a complex issue. I'd like to talk about how both of us can more objectively weigh this decision.". You can bring in contrasting: "I know you care a great deal about my daughter, and I'm confident you're well-trained. That's not my concern at all. I know you want to do what's best for Debbie, and I do too. My only issue is that this is an ambiguous decision with huge implications for the rest of her life.".
 
+- ***A*sk for others' paths** Once you share your story, invite others to do the same. Encourage others to share both their facts and their stories.
+- ***T*alk tentatively** State your story as a story-don't disguise it as a fact. Use phrases like: "I was wondering why..."; "Perhaps you were unaware..."; "In my opinion...."; and "I'm beginning to wonder if...". Try not to use phrase like: "Everybody knows that..."; "It's clear to me that...". Try to soften your message before letting it out.
+    - Too soft "This is probably stupid, but . . . " or "I'm ashamed to even mention this, but . . . " or "It's probably my fault, but . . . "
+    - Too hard "How come you ripped us off?" or "Just when did you start using hard drugs?" or You wouldn't trust your own mother to make a one minute egg!".
+    - Just right "It's starting to look like you're taking this home for your own use. Is that right?" or "It's leading me to conclude that you're starting to use drugs. Do you have another explanation that I'm missing here?" or "I'm starting to feel like you don't trust me. Is that what's going on here? If so, I'd like to know what I did to lose your trust.".
 
+- ***E*ncourage testing** Make it safe for others to express differing or even opposing views. Invite them make a difference, useful for testing if they are really speaking what they feel and verify your understanding. Ask question to help complete the picture, "Does anyone see it differently?", "What am I missing here?", or "I'd really like to hear the other side of this story.".
+
+Let's apply our new STATE skills in our motel example:
+
+- BOB: Hi honey, how was your day? 
+- CAROLE: Not so good. 
+- BOB: Why's that? 
+- CAROLE: I was checking our credit card bill, and I noticed a charge of forty-eight dollars for the Good Night Motel down the street. [Shares fa cts] 
+- BOB: Boy, that sounds wrong. 
+- CAROLE: It sure does. 
+- BOB: Well, don't worry. I'll check into it one day when I'm going by. 
+- CAROLE: I'd feel better if we checked right now. 
+- BOB: Really? It's less than fifty bucks. It can wait. 
+- CAROLE: It's not the money that has me worried. 
+- BOB: You're worried? 
+- CAROLE: It's a motel down the street. You know that's how my sister found out that Phil was having an affair. She found a suspicious hotel bill. [Shares story-tentatively] I don't have anything to worry about do I? What do you think is going on with this bill? [Asks fo r other's path] 
+- BOB: I don't know, but you certainly don't have to worry about me. 
+- CAROLE: I know that you've given me no reason to question your fidelity. I don't really believe that you're having an affair. [Contrasting] It's just that it might help put my mind to rest if we were to check on this right now. Would that bother you? [Encourages testing] 
+- BOB: Not at all. Let's give them a call and find out what's going on. 
+
+The suspicious spouse avoided nasty accusations and ugly stories, shared facts, and then tentatively shared a possible conclusion. As it turns out, the couple had gone out to a Chinese restaurant earlier that month. The owner of the restaurant also owned the motel and used the same credit card imprinting machine at both establishments. Oops. The worried spouse averted a huge battle, and the couple's relationship was strengthened at a time when it could easily have been damaged.
+
+### Strong Belief
+
+Seated around the table is a group of leaders who are starting to debate an important topic. First, someone hints that she's the only one with any real insight. Then someone else starts tossing out facts like so many poisonous darts. Another-it just so happens someone with critical information-retreats into silence. As emotions rise, words that were once carefully chosen and tentatively delivered are now spouted with an absolute certainty that is typically reserved for claims that are nailed to church doors or carved on stone tablets. In the end, nobody is listening, everyone is committed to silence or violence, and the Pool of Shared Meaning is dry. Nobody wins.
+
+This happens because we feel the need to push our ideas on others, we generally believe we are right and felt the duty to fight for truth that we are holding. We play dirty tricks, pulling out big guns, referencing authority "Well, that's what the boss thinks." or exaggeration "Everyone knows that this is the only way to go." or "All right-thinking people would agree with me.". It is important to check on yourself during a conversation, because the more you care about an issue, the less likely you are to be on your best behaviour. It is ok to have strong feelings, but you need to express them well, back off your harsh words and conclusive language, not your belief, merely soften your approach.
+
+## Explore Others' Paths
+
+To encourage the free flow of meaning and help others leave silence or violence behind, explore their Paths to Action. Start with an attitude of curiosity and patience. This helps restore safety. Then, use four powerful listening skills to retrace the other person's Path to Action to its origins. 
+
+- Ask. Start by simply expressing interest in the other person's views. 
+- Mirror. Increase safety by respectfully acknowledging the emotions people appear to be feeling.
+- Paraphrase. As others begin to share part of their story, restate what you've heard to show not just that you under stand, but also that it's safe for them to share what they're thinking. 
+- Prime. If others continue to hold back, prime. Take your best guess at what they may be thinking and feeling. As you begin to share your views, remember: 
+- Agree. Agree when you do. Build. If others leave something out, agree where you do, then build. 
+- Compare. When you do differ significantly, don't suggest others are wrong. Compare your two views.
+
+## Move to Action
+
+Turn your successful crucial conversations into great decisions and united action by avoiding the two traps of violated expectations and inaction.
+
+- Command. Decisions are made without involving others.
+- Consult. Input is gathered from the group and then a subset decides.
+- Vote. An agreed-upon percentage swings the decision.
+- Consensus. Everyone comes to an agreement and then sup ports the final decision.
+
+Determine who does what by when. Make the deliverables crys tal clear. Set a fo llow-up time. Record the commitments and then follow up. Finally, hold people accountable to their promises.
+
+## Putting It All Together
+
+- YOU: We have to sell the summer cottage. We never use it, and we need the cash to pay for my expenses from taking care of Mom the past four years.
+- SISTER: Please don't start with the guilt. I sent you money every month to help take care of Mom. If I didn't have to travel for my jobs, you know I would have wanted her at my house.
+- YOU: I don't want to start an argument or try to make you feel guilty. But I do want to talk about being compensated for shouldering most of the responsibility over the last few years. I love Mom, but it put quite a strain on me financially and emotionally.
+- SISTER: What makes you think you did so much more than I did?
+- YOU: It's just that I spent a lot of money taking care of Mom and did a lot of work caring for her instead of bringing in a nurse. I know you cared about Mom too, but I honestly feel like I did more in the day-to-day caregiving than you did, and it only seems fair to use some of what she left us to repay a part of what I spent. Do you see it differently? I'd really like to hear.
+- SISTER: Okay, fine. Why don't you just send me a bill.
+- YOU: The way you say that makes it sound like maybe that suggestion isn't okay with you. [Mirror] Is there some thing I'm missing? [Ask]
+- SISTER: No-if you feel like you deserve more than I do, you're probably right
+- You: Do you think I'm being unfair? That I'm not acknowledging your contributions? [Prime]
+- SISTER: It's just that I know I wasn't around much in the last couple of years. I've had to travel a lot for work. But I still visited whenever I could, and I sent money every month to help contribute to Mom's care. I offered to help pay to bring in a nurse if you thought it was necessary. I didn't know you felt you had an unfair share of the responsibility, and it seems like your asking for more money is coming out of nowhere.
+- You: So you feel like you were doing everything you could to help out and are surprised that I feel like I should be compensated? [Paraphrase]
+- SISTER: Well, yes.
+- You: You're right. You did a lot to help out, and I realize that it was expensive to visit as often as you did. I opted not to pay for professional home health care because Mom was more comfortable with me taking care of her, and I didn't mind that. On top of that, there were some incidental expenses it doesn't sound like you were aware of. The new medication she was on during the last eighteen months was twice as expensive as the old, and the insurance only covered a percentage of her hospital stays. It adds up.
+- SISTER: So it's these expenses you're worried about covering? Could we go over these expenses to decide how to cover them?
+- You: I've kept a record of all the expenses that went over the amount that both of us agreed to contribute. Can we sit down tomorrow to go over those and talk about what's fair to reimburse me for?
+- SISTER: Okay. We'll talk about the estate and write up a plan for how to divide things up.
