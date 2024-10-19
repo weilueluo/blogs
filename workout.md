@@ -414,9 +414,13 @@ RM - Repetition Maximum 最大次数
 | 脂肪   | 不严格 | 一般不吃              | <20g               | 不严格 |
 | 蔬菜   | 不严格 | 不严格                | 不吃或最后吃       | 多吃   |
 
+- 减脂期：随着碳水总配额的递减，其他餐2成碳水要逐渐少吃不吃，从2242逐渐变成3052比例（0指其他餐碳水）
+- 蛋白质和脂肪的“不严格”是指分配可以偏均摊也可偏集中，注意总量大概符合
+- 每天不一定只吃4次，可能还有零食和加餐，注意总量大概符合
 
+休息日碳水减少，不做碳水集中，蛋白质和脂肪和训练日大体相同。休息日碳水均衡，抑制胰岛素减少增脂。
 
-
+对于日际变化，三分化及以下无需考虑，四/五分化的话，肩膀/手臂单练日估计减少约1/3的碳水即可。
 
 ### 血糖
 
@@ -436,6 +440,29 @@ RM - Repetition Maximum 最大次数
 
 <img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729346338.png" alt="image-20241019145858187" style="zoom:80%;" />
 
-### 便携快碳
+### 碳水
+
+GI是50g碳水在120分钟内的血糖面积变化
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729349413.png" alt="image-20241019155013893" style="zoom:80%;" />
+
+碳水率+分解速度是碳水的关键
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729349322.png" alt="image-20241019154841967" style="zoom:80%;" />
+
+注意烹饪方式会强烈改变食物的GI
+
+```mermaid
+flowchart LR
+
+烹饪加温-->碳粉颗粒糊化裂解-->与淀粉酶接触面积增加-->分解为葡萄糖的速度更快-->食物GI升高
+```
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729349684.png" alt="image-20241019155443929" style="zoom:67%;" />
+
+
+
+快碳例子
 
 <img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729347777.png" alt="image-20241019152257055" style="zoom:80%;" />
+
