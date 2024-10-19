@@ -10,6 +10,8 @@
 - Day2 胸+肩前中束+肱三头
 - Day3 腿+腹
 
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729341498.png" alt="image-20241019133818019" style="zoom:80%;" />
+
 ### 四分化
 
 - Day1 背+肩后束
@@ -19,9 +21,22 @@
 
 *另一个版本是拆分手臂，单练肩膀
 
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729341524.png" alt="image-20241019133843968" style="zoom:80%;" />
+
+### 训练时长
+
+- 7天1-2次：聊胜于无
+- 7天3-4次：合适有效
+- 7天5-6次：极限频率
+- 7天7次：自残
 
 
 
+### 配重
+
+RM - Repetition Maximum 最大次数
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729342555.png" alt="image-20241019135555139" style="zoom:80%;" />
 
 
 
@@ -46,6 +61,16 @@
 
 
 ## 动作细分索引
+
+
+
+### 动作模式、关节和肌肉
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729341235.png" alt="image-20241019133355164" style="zoom:80%;" />
+
+### 动作难易度
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729341892.png" alt="image-20241019134452754" style="zoom:80%;" />
 
 
 
@@ -255,9 +280,77 @@
 
 
 
+#### 腘绳肌
+
+动作：膝关节屈，膝关节从打直变为折叠的运动
+
+腘绳肌：股二头肌+半腱肌+半膜肌
+
+| 动作                                                         | 演示                                                         | 备注 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [俯卧腿弯举](https://musclewiki.com/machine/male/hamstrings/machine-hamstring-curl) | ![ezgif.com-video-to-gif-converter (27)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729332083.gif) |      |
+| [坐姿腿弯举](https://musclewiki.com/machine/male/hamstrings/machine-seated-leg-curl) | ![ezgif.com-video-to-gif-converter (28)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729332140.gif) |      |
+| [北欧挺](https://musclewiki.com/machine/male/hamstrings/glute-ham-raise) | ![ezgif.com-video-to-gif-converter (29)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729332192.gif) |      |
+
+动作：髋关节伸，大腿矢状面从前往后运动
+
+肌肉：腘绳肌+臀大肌
+
+| 动作                                                         | 演示                                                         | 备注 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [直腿硬拉](https://musclewiki.com/barbell/male/glutes/barbell-stiff-leg-deadlifts) | ![ezgif.com-video-to-gif-converter (30)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729333624.gif) |      |
+| [俯卧髋屈伸](https://musclewiki.com/machine/male/hamstrings/glute-ham-raise) | ![ezgif.com-video-to-gif-converter (31)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729333727.gif) |      |
+
+
+
+#### 臀大肌+臀中肌+阔筋膜张肌
+
+动作：髋关节外展，额状面从内往外的运动
+
+只用这个动作很难练出好臀肌，只能算次要动作，主要还得看前面的
+
+| 动作                                                         | 演示                                                         | 备注 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [器械髋外展](https://musclewiki.com/machine/male/glutes/machine-hip-abduction) | ![ezgif.com-video-to-gif-converter (34)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729335557.gif) |      |
+| [弹力带髋外展](https://musclewiki.com/band/male/glutes/band-hip-abduction) | ![ezgif.com-video-to-gif-converter (35)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729335607.gif) |      |
+
+
+
+### 腹
+
+#### 腹直肌
+
+动作：卷腹/举腿， 
+
+- 卷腹：胸椎/腰椎弯曲的运动
+- 举腿：骶柱弯曲的运动
+
+| 动作                                                         | 演示                                                         | 备注                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
+| [卷腹](https://musclewiki.com/bodyweight/male/abdominals/crunches) | ![ezgif.com-video-to-gif-converter (37)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729336231.gif) | 脊柱从直变成微弯，大腿和骨盆不动，没有髋关节屈 |
+| [悬垂举腿](https://musclewiki.com/bodyweight/male/abdominals/hanging-knee-raises) | ![ezgif.com-video-to-gif-converter (36)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729336027.gif) | 举得越高越好，缓慢运动，避免借助动能           |
+
 
 
 ## 动作分析
+
+
+
+### 髋关节伸和膝关节伸
+
+| 动作                                                         | gif                                                          | 备注                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- |
+| [深蹲](https://musclewiki.com/barbell/male/glutes/barbell-squat) | ![ezgif.com-video-to-gif-converter (32)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729334891.gif) | 伸膝幅度：较大<br />伸髋幅度：较小<br />主练股四头肌      |
+| [硬拉](https://musclewiki.com/barbell/male/lowerback/barbell-romanian-deadlift) | ![ezgif.com-video-to-gif-converter (33)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729334968.gif) | 伸膝幅度：较小<br />伸髋幅度：较大<br />主练腘绳肌+臀大肌 |
+| [直腿硬拉](https://musclewiki.com/barbell/male/glutes/barbell-stiff-leg-deadlifts) | ![ezgif.com-video-to-gif-converter (30)](https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729333624.gif) | 伸膝幅度：最小<br />伸髋幅度：最大<br />只练腘绳肌+臀大肌 |
+
+机械也是同理
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729335261.png" alt="image-20241019115421879" style="zoom:80%;" />
+
+
+
+
 
 ### 卧推肌电测试
 
@@ -304,3 +397,45 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241018_1729244873.jpeg" alt="b193b303b5ed11c6e56436527b647c13" style="zoom:80%;" /> | <img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241018_1729244998.jpg" alt="e59c96e4b883-e8a7a3e58996e5b9b3e99da2e8bd89e58b95e8bbb8" style="zoom:67%;" /> |
 
+
+
+## 饮食
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729344756.png" alt="image-20241019143235784" style="zoom:80%;" />
+
+
+
+### 日内分配
+
+|        | 早餐   | 练前餐（10-30mins前） | 练后餐（30mins内） | 其他餐 |
+| ------ | ------ | --------------------- | ------------------ | ------ |
+| 碳水   | 2成    | 2成                   | 4成，快碳          | 2成    |
+| 蛋白质 | 不严格 | 可吃可不吃            | 30-50g             | 不严格 |
+| 脂肪   | 不严格 | 一般不吃              | <20g               | 不严格 |
+| 蔬菜   | 不严格 | 不严格                | 不吃或最后吃       | 多吃   |
+
+
+
+
+
+### 血糖
+
+不论是快碳还是慢碳，吃下就会快速导致血糖升高，在半小时到一小时达到高点，练前最好选择中高GI的碳水。血糖也可以减少锻炼时候的肌肉损耗。
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729347560.png" alt="image-20241019151920215" style="zoom:80%;" />
+
+
+
+### 胰岛素
+
+胰岛素得功能是转运血液里的葡萄糖和氨基酸，帮助增肌增脂的合成代谢激素，能自我操控。胰岛素可以通过饮食来刺激，碳水>蛋白质>脂肪。纤维素会抑制胰岛素，因为它能降低胃排空的速度，缓释需要消化的食物，使得身体只需分泌更少的胰岛素。
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729346278.png" alt="image-20241019145758343" style="zoom:80%;" />
+
+如果你要食用纤维素，最好放到最后吃，顺序错了会引起大约30%的差距（基于100克的蔬菜）。
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729346338.png" alt="image-20241019145858187" style="zoom:80%;" />
+
+### 便携快碳
+
+<img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241019_1729347777.png" alt="image-20241019152257055" style="zoom:80%;" />
