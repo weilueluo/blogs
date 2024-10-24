@@ -30,4 +30,55 @@ C# is a general-purpose, type-safe, object-oriented, platform-neutral programmin
 
 
 - readonly function modifier means it does not modify properties, but not itself cant be modified.
+
 - use @prefix `@using` to use reserved word as identifier.
+
+- use `using var reader = File.OpenText(...)` to close file when out of scope
+
+- use `checked` to explicitly check for arithmetic overflow exception (vice versa `unchecked`)
+
+- string interpolation `$"number is: {x}"`
+
+- collection expression: `char[] vowels = ['a','e','i','o','u'];`, declare collection with square bracket
+
+- value type like `struct` is initialized with bitwise zero, otherwise it is null
+    <img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241024_1729777835.png" alt="image-20241024145035435" style="zoom:80%;" />
+
+- The design principle here is that **users expect the lexical structure of the brackets and commas to be consistent across declaration, initialization and dereferencing**.
+
+    - about 2d array https://ericlippert.com/2009/08/17/arrays-of-arrays/
+
+- array bound check is necessary, but optimization can prevent necessary checks, e.g. in a loop and c# provide unsafe code to bypass it.
+
+- prepend `ref` keyword function parameter to accept value by reference into a function
+
+- `string` is value type
+
+- use `out` to return values back from method.
+
+- use `_` when you dont care about a variable
+
+    - for backward compatibility purpose, it will not work if you have an underscore variable in scope.
+
+- use `in` like a `const ref` method argument, useful for reducing overhead for copying large value type.
+
+    - both caller and callee must use the `in` keyword
+
+- last param as varargs `int Sum (params int[] ints)`
+
+- optional params `void Foo (int x = 23) { Console.WriteLine (x); }`
+
+- named arguments
+    ```
+    Foo (x:1, y:2);  // 1, 2 
+    void Foo (int x, int y) { Console.WriteLine (x + ", " + y); }
+    ```
+
+    - you can mix named and positional arguments
+
+- When calling ref function, you can call without assigning result to `ref` variable, this fallback to ordinary value: `string localX = GetXRef();`
+
+- You can also prevent a ref from being modified: `static ref readonly string Prop => ref x;`
+
+- `var` im
+
