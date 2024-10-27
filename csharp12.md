@@ -80,5 +80,219 @@ C# is a general-purpose, type-safe, object-oriented, platform-neutral programmin
 
 - You can also prevent a ref from being modified: `static ref readonly string Prop => ref x;`
 
-- `var` im
+- `var` implicit typed local variable
+
+- use `new()` when the class can be inferenced from left hand side
+
+- multi initialize: `a = b = c = d = 0`
+
+- assignment in expression: `y = 5 * (x = 2)`
+
+- binary operators, except for assignment, lambda and null-coalescing operators are left-associative
+
+- null-coalescing operator: `string s2 = s1 ?? "nothing"`
+
+- null conditional
+    ```c#
+    int x = sb?.ToString().Length;  // Illegal: int cant be null]
+    int? x = sb?.ToString().Length;  // ok, int? can be null
+    ```
+
+- you can open a scope anytime with curly brackets `{}`
+
+- imports
+
+    - ```c#
+        using System;
+        System.Console.Writeline("x");
+        ```
+
+    - ```c#
+        using static System.Console;
+        Writeline("x");
+        ```
+
+    - ```c#
+        global using System;
+        ```
+
+- All type names are converted to fully qualified names
+
+- you can call `using xxx` within some namespace
+
+- using alias: `using R = System.Reflection; class Program { R.PropertyInfo p; }`
+
+- `::` namespace qualification, e.g. `global::A.B()`, useful for referring to hidden namespace.
+
+
+
+
+
+- naming
+    - private: camel-cased with underscore `_firstName`
+    - local variable: camel-cased `firstName`
+    - public: Cap case: `FirstName`
+
+- multi-field declare
+
+    ```c#
+    static readonly int legs = 8,                    
+    					eyes = 2;
+    ```
+
+- const `public const string Message = "Hello World"`
+
+- `static readonly` maybe different each time the program runs (e.g. `DateTime.Now`), but `const` will always be the same (e.g. `PI`).
+
+- adding `static` modifier to a local method prevent it from seeing other local variables.
+
+- `this` refers to instance itself, invalid when static
+
+- property's `get` and `set` method can be overridden
+
+    - internally, they are compiled to `get_XXX` and `set_XXX`
+
+- custom indexer
+    ```c#
+    public string this[int wordNum]   // indexer
+    {
+        get { return words[wordNum]; }
+        set { words[wordNum] = value; }
+    }
+    ```
+
+- static field initializer runs in order they are declared
+    ```c#
+    class Foo {  
+        public static int X = Y;    // 0  
+        public static int Y = 3;    // 3 
+    }
+    ```
+
+- finalizer / destructor `~ClassName() { ... }`
+
+- partial methods
+    <img src="https://raw.githubusercontent.com/weilueluo/note-images/master/2024/10/upgit_20241027_1730047552.png" alt="image-20241027164551840" style="zoom:80%;" />
+
+- `nameof` operator returns the name of the symbol
+
+    ```c#
+    nameof(count);  // count
+    nameof(StringBuilder.Length);  // Length
+    ```
+
+- use `as` to downcast and evaluate to `null` if fails. `Stock s = a as Stock`
+
+- 
+
+
+
+historically speaking, relying on constructors for object initialization could be advantageous in that it allowed us to create fields with read-only access, but this also means we abandoned object initializer (caller side initialization). To solve this problem, c# 9 introduced `init` keyword to only allow a property to be set either in constructor or object initializer.
+
+Optional parameters have two drawbacks:
+
+- It does not easily allow *non-destructive mutation* (`obj with { ... }`).
+- when used in library, it hinders backward compatibility, because adding an optional parameters breaks assembly's binary compatibility with existing consumers
+    - When application code compiles with library code, library's optional parameter values are copied to the application code, effective making `library.Test()` becomes `library.Test(optionalBool=True)` in the application's binary code. If later library decided to change `optionalBool` to be something else, the application code is not updated automatically. Furthermore, because there is no optional parameter in the binary, if library decided to add a new optional parameters, it breaks application code because now the signature has changed, and application cant find library's new method. It does not just use the default value like python.
+- 
+
+
+
+| Modifier Type         | Modifier           |
+|-----------------------|--------------------|
+| Static modifier       | `static`           |
+| Access modifiers      | `public` `internal` `private` `protected` |
+| Inheritance modifier  | `new`              |
+| Unsafe code modifier  | `unsafe`           |
+| Read-only modifier    | `readonly`         |
+| Threading modifier    | `volatile`         |
+
+
+
+| Category | Operator symbol | Operator name | Example | User-overloadable |
+|----------|------------------|---------------|---------|-------------------|
+| Primary  | .                | Member access | `x.y`   | No                |
+| Primary  | ?. and ?[]        | Null-conditional | `x?.y` or `x?[0]` | No |
+| Primary  | ! (postfix)       | Null-forgiving | `x!.y` or `x![0]` | No |
+| Primary  | -> (unsafe)       | Pointer to struct | `x->y` | No |
+| Primary  | ()               | Function call | `x()`   | No                |
+| Primary  | []               | Array/index   | `a[x]`  | Via indexer       |
+| Primary  | ++               | Post-increment | `x++`   | Yes               |
+| Primary  | --               | Post-decrement | `x--`   | Yes               |
+| Primary  | new              | Create instance | `new Foo()` | No          |
+| Primary  | stackalloc       | Stack allocation | `stackalloc(10)` | No |
+| Primary  | typeof           | Get type from identifier | `typeof(int)` | No |
+| Primary  | nameof           | Get name of identifier | `nameof(x)` | No  |
+| Primary  | checked          | Integral overflow check on | `checked(x)` | No |
+| Primary  | unchecked        | Integral overflow check off | `unchecked(x)` | No |
+| Primary  | default          | Default value | `default(char)` | No   |
+
+
+
+| Category        | Operator symbol | Operator name                 | Example                              | User-overloadable |
+|-----------------|-----------------|-------------------------------|--------------------------------------|-------------------|
+| Unary           | await           | Await                         | `await myTask`                       | No                |
+| Unary           | sizeof          | Get size of struct            | `sizeof(int)`                        | No                |
+| Unary           | +               | Positive value of             | `+x`                                 | Yes               |
+| Unary           | -               | Negative value of             | `-x`                                 | Yes               |
+| Unary           | !               | Not                           | `!x`                                 | Yes               |
+| Unary           | ~               | Bitwise complement            | `~x`                                 | Yes               |
+| Unary           | ++              | Pre-increment                 | `++x`                                | Yes               |
+| Unary           | --              | Pre-decrement                 | `--x`                                | Yes               |
+| Unary           | ()              | Cast                          | `(int)x`                             | No                |
+| Unary           | ^               | Index from end                | `array[^1]`                          | No                |
+| Unary           | * (unsafe)      | Value at address              | `*x`                                 | No                |
+| Unary           | & (unsafe)      | Address of value              | `&x`                                 | No                |
+| Range           | ..              | Range of indices              | `x..y`                               | No                |
+| Range           | ..^             |                               | `x..^y`                              | No                |
+| Switch & with   | switch          | Switch expression             | `num switch { 1 => true, _ => false }`| No                |
+| Switch & with   | with            | With expression               | `rec with { X = 123 }`               | No                |
+| Multiplicative  | *               | Multiply                      | `x * y`                              | Yes               |
+| Multiplicative  | /               | Divide                        | `x / y`                              | Yes               |
+| Multiplicative  | %               | Remainder                     | `x % y`                              | Yes               |
+| Additive        | +               | Add                           | `x + y`                              | Yes               |
+| Additive        | -               | Subtract                      | `x - y`                              | Yes               |
+| Shift           | <<              | Shift left                    | `x << 1`                             | Yes               |
+| Shift           | >>              | Shift right                   | `x >> 1`                             | Yes               |
+| Shift           | >>>             | Unsigned shift right          | `x >>> 1`                            | Yes               |
+| Relational      | <               | Less than                     | `x < y`                              | Yes               |
+| Relational      | >               | Greater than                  | `x > y`                              | Yes               |
+| Relational      | <=              | Less than or equal to         | `x <= y`                             | Yes               |
+| Relational      | >=              | Greater than or equal to      | `x >= y`                             | Yes               |
+| Relational      | is              | Type is or is subclass of     | `x is y`                             | No                |
+| Relational      | as              | Type conversion               | `x as y`                             | No                |
+
+
+
+
+
+| Category            | Operator symbol | Operator name                  | Example                     | User-overloadable |
+|---------------------|-----------------|--------------------------------|-----------------------------|-------------------|
+| Equality            | ==              | Equals                         | `x == y`                    | Yes               |
+| Equality            | !=              | Not equals                     | `x != y`                    | Yes               |
+| Bitwise And         | &               | And                            | `x & y`                     | Yes               |
+| Bitwise Xor         | ^               | Exclusive Or                   | `x ^ y`                     | Yes               |
+| Bitwise Or          | |               | Or                             | `x | y`                     | Yes               |
+| Conditional And     | &&              | Conditional And                | `x && y`                    | Via &             |
+| Conditional Or      | ||              | Conditional Or                 | `x || y`                    | Via |             |
+| Null coalescing     | ??              | Null coalescing                | `x ?? y`                    | No                |
+| Conditional         | ?:              | Conditional                    | `isTrue ? thenThis : elseThis` | No             |
+| Assignment and lambda | =             | Assign                         | `x = y`                     | No                |
+| Assignment and lambda | *=            | Multiply self by               | `x *= 2`                    | Via *             |
+| Assignment and lambda | /=            | Divide self by                 | `x /= 2`                    | Via /             |
+| Assignment and lambda | %=            | Remainder & assign to self      | `x %= 2`                    | Via %             |
+| Assignment and lambda | +=            | Add to self                    | `x += 2`                    | Via +             |
+| Assignment and lambda | -=            | Subtract from self             | `x -= 2`                    | Via -             |
+| Assignment and lambda | <<=           | Shift self left by             | `x <<= 2`                   | Via <<            |
+| Assignment and lambda | >>=           | Shift self right by            | `x >>= 2`                   | Via >>            |
+| Assignment and lambda | >>>=          | Unsigned shift self right by   | `x >>>= 2`                  | Via >>>           |
+| Assignment and lambda | &=            | And self by                    | `x &= 2`                    | Via &             |
+| Assignment and lambda | ^=            | Exclusive-Or self by           | `x ^= 2`                    | Via ^             |
+| Assignment and lambda | |=            | Or self by                     | `x |= 2`                    | Via |             |
+| Assignment and lambda | ??=           | Null-coalescing assignment      | `x ??= 0`                   | No                |
+| Assignment and lambda | =>            | Lambda                         | `x => x + 1`                | No                |
+
+
+
+
 
