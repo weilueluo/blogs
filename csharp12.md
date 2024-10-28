@@ -29,7 +29,7 @@ C# is a general-purpose, type-safe, object-oriented, platform-neutral programmin
 
 
 
-- readonly function modifier means it does not modify properties, but not itself cant be modified.
+- readonly function modifier means it does not modify properties, but not itself cant be modified. It can be used on struct to enforce all fie
 
 - use @prefix `@using` to use reserved word as identifier.
 
@@ -183,7 +183,81 @@ C# is a general-purpose, type-safe, object-oriented, platform-neutral programmin
 
 - use `as` to downcast and evaluate to `null` if fails. `Stock s = a as Stock`
 
+- pattern variable `x`: `if (x is Stock s) { ... }`
+
+- use `virtual` to declare unimplemented method, and `override` to implement it in subclass
+
+    - you can call parent implementation with `base` keyword
+
+    - calling virtual method in constructor is dangerous, because the overriding method may not know it is working on a partially initialized object
+
+    - from c# 9, overriding method can return a subclass type
+
+- `abstract` is like `virtual`, but without default implementation
+
+- when you hide a parent class member, use `new` keyword to tell compiler it is intended behaviour to avoid a compiler warning
+    ```c#
+    public class A     { public     int Counter = 1; } 
+    public class B : A { public new int Counter = 2; }
+    ```
+
+- you can also `hide` a method instead of `override` it, the difference is, when you call that method using a parent type (which instance is actually a subtype), it will use the parent implementation instead of child implementation, unlike `override`, where you get polymorphism.
+
+- subclass must declare its own constructor, but it can call any base class constructor using the `base` keyword
+    ```c#
+    public class Subclass : Baseclass {  
+        public Subclass (int x) : base (x) {
+        	...
+        } 
+    }
+    ```
+
+    - if `base` keyword is missing, the base type's parameter-less constructor is implicitly called
+        - if no such constructor exists in base class, subclass must use the `base` keyword
+
+- `required` member must be populated via object initializer when constructed
+
+- `object` is the base class for all types
+
+- boxing and unboxing
+    ```c#
+    int x = 9; 
+    object obj = x; // boxing
+    int y = (int)obj; // unboxing
+    ```
+
+    - array variance only works with reference convertion, not boxing convertion
+        ```c#
+        object[] a1 = new string[3];   // Legal 
+        object[] a2 = new int[3];      // Error
+        ```
+
+- ```c#
+    Point p = new Point(); Console.WriteLine (p.GetType().Name); // Point 
+    Console.WriteLine (typeof (Point).Name);          // Point 
+    Console.WriteLine (p.GetType() == typeof(Point)); // True 
+    Console.WriteLine (p.X.GetType().Name);           // Int32 
+    Console.WriteLine (p.Y.GetType().FullName);       // System.Int32
+    public class Point { public int X, Y; }
+    ```
+
+- `ToString()` returns type name if you don't override it
+
+- `struct` 
+
+    - is a value type
+    - no inheritance (other than derived from `System.ValueType`)
+    - no finalizer
+    - before c# 10, it is further restricted with no initializer and parameter-less constructors, it is relaxed primarily for benefits of record struct
+        - even if you define a constructor, a bitwise zero initialization is still possible with `default` keyword: `Point p = default`. A good strategy is giving valid value for `default` state
+
 - 
+
+
+
+
+
+Runtime type check is possible because every object on heap internally stores a little type token, you can retrieve it by calling `GetType` method of `object`.
 
 
 
