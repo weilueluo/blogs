@@ -1,5 +1,9 @@
 # CSharp 12 In a Nutshell
 
+> [!NOTE]
+>
+> This note is not done
+
 C# is a general-purpose, type-safe, object-oriented, platform-neutral programming language. Its goal is to boost programmer productivity.
 
 - Unified type system, all types share the same base class.
@@ -29,7 +33,7 @@ C# is a general-purpose, type-safe, object-oriented, platform-neutral programmin
 
 
 
-- readonly function modifier means it does not modify properties, but not itself cant be modified. It can be used on struct to enforce all fie
+- readonly function modifier means it does not modify properties, but not itself cant be modified. It can be used on struct to enforce all fields are readonly.
 
 - use @prefix `@using` to use reserved word as identifier.
 
@@ -251,7 +255,56 @@ C# is a general-purpose, type-safe, object-oriented, platform-neutral programmin
     - before c# 10, it is further restricted with no initializer and parameter-less constructors, it is relaxed primarily for benefits of record struct
         - even if you define a constructor, a bitwise zero initialization is still possible with `default` keyword: `Point p = default`. A good strategy is giving valid value for `default` state
 
-- 
+    - `ref struct` is a niche feature introduced in c# 7.2
+
+- when you inherit two interfaces with same function, you can implement them by ` int I2.Foo()` and ` int I1.Foo()`, the only way to call it is by casting the instance to the corresponding interface and then call the method `((I1)w).Foo();` and `((I2)w).Foo();`.
+
+- enums 
+    ```c#
+    public enum BorderSide { Left, Right, Top, Bottom }
+    
+    public enum BorderSide : byte { Left=1, Right=2, Top=10, Bottom=11 }
+    ```
+
+    - you can convert it to underlying type by explicit cast
+    - because enum cast be cast from and to other type, enums' actual value can fall outside of range, e.g. `BorderSide b = (BorderSide)12345; b++; // no error`
+        - you can use `Enum.IsDefined` to check if an enum actually have valid values
+
+- generics
+
+    - you can use value type: `Stack<int>`
+
+    - generics does not exists in runtime, only compilation. However, you can have a `Type` that holds unbounded generic type
+
+        ```c#
+        Type a1 = typeof (A<>);   // Unbound type (notice no type arguments). 
+        Type a2 = typeof (A<,>);  // Use commas to indicate multiple type args.
+        ```
+
+        It is used in conjunction with reflection apis
+
+    - use `default` keyword to get the default value for a generic parameter, for reference type, it is null, and bitwise zero for value type.
+
+    - you can omit type parameter when the compiler is able to infer it
+
+    - you can specify type constraints
+
+        | Constraint             | Description                                                  |
+        | ---------------------- | ------------------------------------------------------------ |
+        | `where T : base-class` | Base-class constraint                                        |
+        | `where T : interface`  | Interface constraint                                         |
+        | `where T : class`      | Reference-type constraint                                    |
+        | `where T : class?`     | Nullable Reference Types (see Chapter 4)                     |
+        | `where T : struct`     | Value-type constraint (excludes Nullable types)              |
+        | `where T : unmanaged`  | Unmanaged constraint. ( T must be a simple value type or a struct that is (recursively) free of any reference types.) |
+        | `where T : new()`      | Parameterless constructor constraint                         |
+        | `where U : T`          | Naked type constraint                                        |
+        | `where T : notnull`    | Non-nullable value type, or (from C# 8) a non-nullable reference type |
+
+    - 
+
+
+
 
 
 
@@ -266,9 +319,86 @@ historically speaking, relying on constructors for object initialization could b
 Optional parameters have two drawbacks:
 
 - It does not easily allow *non-destructive mutation* (`obj with { ... }`).
+
 - when used in library, it hinders backward compatibility, because adding an optional parameters breaks assembly's binary compatibility with existing consumers
     - When application code compiles with library code, library's optional parameter values are copied to the application code, effective making `library.Test()` becomes `library.Test(optionalBool=True)` in the application's binary code. If later library decided to change `optionalBool` to be something else, the application code is not updated automatically. Furthermore, because there is no optional parameter in the binary, if library decided to add a new optional parameters, it breaks application code because now the signature has changed, and application cant find library's new method. It does not just use the default value like python.
-- 
+    
+- Covariance
+
+    - if A convertible to B, T has covariance parameter if T\<A\> is convertible to T\<B\>. This means, 
+
+        - e.g. `IEnumerable<T>`
+
+    - typical class cant be covariant,
+
+        ```c#
+        Stack<Bear> bears = new Stack<Bear>(); 
+        Stack<Animal> animals = bears;            // Compile-time error
+        animals.Push (new Camel());      // Prevent adding Camel to bears
+        ```
+
+        - For historical reason, array supports covariance, the above code only fails in compile time
+
+    - declare a covariant parameter
+        ```c#
+        public interface IPoppable<out T> { T Pop(); }
+        ```
+
+        - this means `T` can only be at output position, i.e. return type, there is no way to make it as a input parameter and accidentally adding it to the wrong collection
+        - due to limitation in CLR, method parameter with `out` is not eligible for covariance
+
+    - contravariant is similar concept where you cast upwards, converting from `T<Bear>` to `T<Animals>`
+    
+        - you declare such parameter with `in` keyword `public interface IPushable<in T> { void Push (T obj); }`
+    
+            - this means you can only use `T` in input position
+    
+            ```c#
+            public interface IComparer<in T> {  // Returns a value indicating the relative ordering of a and b  
+            	int Compare (T a, T b); 
+            }
+            var objectComparer = Comparer<object>.Default; 
+            // objectComparer implements IComparer<object> 
+            IComparer<string> stringComparer = objectComparer; 
+            int result = stringComparer.Compare ("Brett", "Jemaine");
+            ```
+    
+    - c# generics happens in compile time, you write a class, compile it into a `.dll` library, and other application use it freely. Note that this means c# generics must declare all possible values when writing it.
+    
+        - ```c#
+            // OK
+            static T Max <T> (T a, T b) where T : IComparable<T>  => a.CompareTo (b) > 0 ? a : b;
+            
+            // Compile error, > operator might not exists in all types
+            static T Max <T> (T a, T b)  => (a > b ? a : b);
+            
+            // For C++ template, this is OK
+            template <class T> T Max (T a, T b) {  return a > b ? a : b; }
+            // Reason: C++ template exists as source code as part of the application using this code
+            // because this code exists as source code, it is recompiled everytime it is used,
+            // therefore compiler can check on the fly whether the new code's T parameter type
+            // support the > operator and fail 
+            ```
+    
+        - 
+    
+        
+
+
+
+
+
+
+| Accessibility Level     | Description                                                                                                                                                                                                                                      |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **public**              | Fully accessible. This is the implicit accessibility for members of an enum or interface.                                                                                                               |
+| **internal**            | Accessible only within the containing assembly or friend assemblies. This is the default accessibility for non-nested types.                                                                             |
+| **private**             | Accessible only within the containing type. This is the default accessibility for members of a class or struct.                                                                                           |
+| **protected**           | Accessible only within the containing type or subclasses.                                                                                                                                                |
+| **protected internal**  | The *union* of `protected` and `internal` accessibility. A member that is `protected internal` is accessible in two ways.                                                                                |
+| **private protected**   | The *intersection* of `protected` and `internal` accessibility. A member that is `private protected` is accessible only within the containing type, or from subclasses *that reside in the same assembly*. |
+| **file** *(from C# 11)* | Accessible only from within the same file. Intended for use by source generators (see "Extended partial methods" on page 125). This modifier can be applied only to type declarations.                   |
+
 
 
 
