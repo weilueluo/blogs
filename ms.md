@@ -41,3 +41,5 @@ hiring manager guide - https://microsoft.sharepoint.com/teams/NewHire/SitePages/
 TODO:
 - schedule a starter talk regarding RTA in one week or two. with miquel, https://teams.microsoft.com/l/message/19:9939f138-c583-4b7f-b0e5-c0e5d28782ba_c2bda99a-951f-4748-81d8-56995b91eb2d@unq.gbl.spaces/1730721210465?context=%7B%22contextType%22%3A%22chat%22%7D
 - When you get your permanent badge, do me a favor and request access here: L7 Access Request
+- review the reflex overview meeting, take note https://teams.microsoft.com/l/message/19:meeting_MjRiMmE0MzgtNThkNS00OTBhLTg4NzAtY2JhNGZmZmJjMDcz@thread.v2/1730829290479?context=%7B%22contextType%22%3A%22chat%22%7D
+- note every team members
