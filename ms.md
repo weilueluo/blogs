@@ -23,12 +23,16 @@ https://microsoft.sharepoint.com/teams/wellbeing_uk/SitePages/Moving-for-Muscle.
 
 
 
-easyid - aka.ms/CoreIdentity
-badge request - https://gsamportalem.corp.microsoft.com/rightcrowd
-signin related - https://mysignins.microsoft.com/security-info
-it tools and productivity - https://microsoft.sharepoint.com/teams/NewHire/SitePages/Productivity.aspx
-mfa setup - https://aka.ms/mfasetup
-technical support tutorials - https://microsoft.sharepoint.com/:v:/t/NewHire/EUqREtAH13FFibrgaRPLqU4Bs3jUbh6uSMATJgNQSMPLhA?e=23pyct&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- easyid - aka.ms/CoreIdentity
+- badge request - https://gsamportalem.corp.microsoft.com/rightcrowd
+- signin related - https://mysignins.microsoft.com/security-info
+- it tools and productivity - https://microsoft.sharepoint.com/teams/NewHire/SitePages/Productivity.aspx
+- mfa setup - https://aka.ms/mfasetup
+- technical support tutorials - https://microsoft.sharepoint.com/:v:/t/NewHire/EUqREtAH13FFibrgaRPLqU4Bs3jUbh6uSMATJgNQSMPLhA?e=23pyct&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- connect tool - http://aka.ms/connects
+- HR Web modern - https://microsoft.sharepoint.com/sites/hrweb
+- incentive compensation guide - https://microsoft.sharepoint.com/teams/IncentiveCompensationGuide
+- role library - https://msrolelibrary.microsoft.com/
 
 
 hiring manager guide - https://microsoft.sharepoint.com/teams/NewHire/SitePages/Hiring-Manager.aspx
