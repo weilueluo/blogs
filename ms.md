@@ -43,3 +43,4 @@ TODO:
 - When you get your permanent badge, do me a favor and request access here: L7 Access Request
 - review the reflex overview meeting, take note https://teams.microsoft.com/l/message/19:meeting_MjRiMmE0MzgtNThkNS00OTBhLTg4NzAtY2JhNGZmZmJjMDcz@thread.v2/1730829290479?context=%7B%22contextType%22%3A%22chat%22%7D
 - note every team members
+- watch the new hire session on wed
