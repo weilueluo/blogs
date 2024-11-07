@@ -33,6 +33,9 @@ https://microsoft.sharepoint.com/teams/wellbeing_uk/SitePages/Moving-for-Muscle.
 - HR Web modern - https://microsoft.sharepoint.com/sites/hrweb
 - incentive compensation guide - https://microsoft.sharepoint.com/teams/IncentiveCompensationGuide
 - role library - https://msrolelibrary.microsoft.com/
+- there is a privacy review for each project occasionally, aka.ms/privacycontacts
+- SSPA ms supplier privacy thing, see aka.ms/sspa
+- 
 
 
 hiring manager guide - https://microsoft.sharepoint.com/teams/NewHire/SitePages/Hiring-Manager.aspx
@@ -54,4 +57,6 @@ TODO:
   - https://microsoft.sharepoint.com/teams/TECCTool?xsdata=MDV8MDJ8YmhlaWRsYmVyZ0BtaWNyb3NvZnQuY29tfDY3OTZhNTAxNGZjMDQ0NjI4YzE5MDhkYzY0OWEwMWM5fDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2Mzg0OTU4NTk4Mjk4ODUyNTZ8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fDB8fHw%3d&sdata=UkZYWWwrZDFXdWtLMkp2Q09qWUtlM3FEZGFvQUF5ZElqUGcreThFcGs0az0%3d
 - global trade team contact - https://microsoft.sharepoint.com/teams/OneTrade/SitePages/Wh.aspx?xsdata=MDV8MDJ8YmhlaWRsYmVyZ0BtaWNyb3NvZnQuY29tfDY3OTZhNTAxNGZjMDQ0NjI4YzE5MDhkYzY0OWEwMWM5fDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2Mzg0OTU4NTk4Mjk4NTQ0OTZ8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fDB8fHw%3d&sdata=S0NscDVTbjlXNkxsYkZiWkJRTENJNkVXd1pQWDBUL3pORTYyTnpFWlV1OD0%3d
 - one trade hub to check for trade related stuff - https://microsoft.sharepoint.com/teams/OneTrade?OR=Teams-HL&CT=1701283481007&xsdata=MDV8MDJ8YmhlaWRsYmVyZ0BtaWNyb3NvZnQuY29tfDY3OTZhNTAxNGZjMDQ0NjI4YzE5MDhkYzY0OWEwMWM5fDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2Mzg0OTU4NTk4Mjk4NDMzNjF8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fDB8fHw%3d&sdata=ZWhndlhiZFlPZ2UrdjBubnIvRVpseXhlN0RTYnpKRmJuTXluMEtTWHZGOD0%3d
-- 
+
+
+
