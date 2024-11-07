@@ -58,5 +58,6 @@ TODO:
 - global trade team contact - https://microsoft.sharepoint.com/teams/OneTrade/SitePages/Wh.aspx?xsdata=MDV8MDJ8YmhlaWRsYmVyZ0BtaWNyb3NvZnQuY29tfDY3OTZhNTAxNGZjMDQ0NjI4YzE5MDhkYzY0OWEwMWM5fDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2Mzg0OTU4NTk4Mjk4NTQ0OTZ8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fDB8fHw%3d&sdata=S0NscDVTbjlXNkxsYkZiWkJRTENJNkVXd1pQWDBUL3pORTYyTnpFWlV1OD0%3d
 - one trade hub to check for trade related stuff - https://microsoft.sharepoint.com/teams/OneTrade?OR=Teams-HL&CT=1701283481007&xsdata=MDV8MDJ8YmhlaWRsYmVyZ0BtaWNyb3NvZnQuY29tfDY3OTZhNTAxNGZjMDQ0NjI4YzE5MDhkYzY0OWEwMWM5fDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2Mzg0OTU4NTk4Mjk4NDMzNjF8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fDB8fHw%3d&sdata=ZWhndlhiZFlPZ2UrdjBubnIvRVpseXhlN0RTYnpKRmJuTXluMEtTWHZGOD0%3d
 
-
+- play with https://daily.fabric.microsoft.com/ and https://msit.powerbi.com/, then prepare some questions and arrange a reflex portal overview meeting with Phanidhar
+ 
 
