@@ -62,3 +62,7 @@ TODO:
 - ask cristian to send meeting invite then update Nuno if it does not work
  
 
+
+Acryms
+- MWC: reflex runs in fabric, fabric platform, its not one thing, MWC is a token, special type of bearer token for reflex
+- Tenant Pooling: takes time for new tenant to be observed by services, one way to mitigate this, is to create a bunch of unnamed tenant, assign when new tenant is needed.
