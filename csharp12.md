@@ -377,7 +377,7 @@ Optional parameters have two drawbacks:
             // Reason: C++ template exists as source code as part of the application using this code
             // because this code exists as source code, it is recompiled everytime it is used,
             // therefore compiler can check on the fly whether the new code's T parameter type
-            // support the > operator and fail 
+            // support the > operator and fail if needed.
             ```
     
         - 
